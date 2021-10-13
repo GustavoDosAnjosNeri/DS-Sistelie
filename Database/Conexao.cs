@@ -14,9 +14,9 @@ namespace DS_Sistelie.Database
 
         private static string port = "3306";
 
-        private static string user = "root";
+        private static string user = "Gustavo";
 
-        private static string password = "delrey57";
+        private static string password = "gustavo";
 
         private static string dbname = "bd_sistelie";
 

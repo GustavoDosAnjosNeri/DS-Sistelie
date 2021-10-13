@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DS_Sistelie.Models
 {
-    class Cadastrarcliente
+    class Cliente
     {
         public int CodigoCliente { get; set; }
 

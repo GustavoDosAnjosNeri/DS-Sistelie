@@ -24,13 +24,6 @@ namespace DS_Sistelie
             InitializeComponent();
         }             
 
-        private void CadastrarProprietario_Click(object sender, RoutedEventArgs e)
-        {
-            CadastrarProprietario cad_proprietario = new CadastrarProprietario();
-            cad_proprietario.Show();
-            this.Close();
-        }
-
         private void CadastrarMateriaPrima_Click(object sender, RoutedEventArgs e)
         {
             CadastrarMateriaPrima cad_CastrarMateria = new CadastrarMateriaPrima();

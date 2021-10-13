@@ -160,6 +160,8 @@
     <Compile Include="Funcionário.cs" />
     <Compile Include="Interfaces\IDAO.cs" />
     <Compile Include="MateriaPrima.cs" />
+    <Compile Include="Models\Cadastrarcliente.cs" />
+    <Compile Include="Models\CadastrarclienteDAO.cs" />
     <Compile Include="Models\Fornecedor.cs" />
     <Compile Include="Models\FornecedorDAO.cs" />
     <Compile Include="RegistrarVenda.cs" />
@@ -180,10 +182,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CadastrarMateriaPrima.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="CadastrarProprietario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -240,9 +238,6 @@
     </Compile>
     <Compile Include="CadastrarFornecedor.xaml.cs">
       <DependentUpon>CadastrarFornecedor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CadastrarProprietario.xaml.cs">
-      <DependentUpon>CadastrarProprietario.xaml</DependentUpon>
     </Compile>
     <Compile Include="ConsultarFornecedores\ConsultarFornecedoresWindow.xaml.cs">
       <DependentUpon>ConsultarFornecedoresWindow.xaml</DependentUpon>
